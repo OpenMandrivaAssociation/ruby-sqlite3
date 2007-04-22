@@ -14,7 +14,7 @@ Group: Development/Ruby
 URL: http://rubyforge.org/projects/sqlite-ruby/
 Source0: %{oname}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-buildroot
-BuildRequires: ruby-devel sqlite3-devel ruby-flexmock
+BuildRequires: ruby-devel sqlite3-devel ruby-flexmock swig
 Provides: %{oname}
 
 %description
