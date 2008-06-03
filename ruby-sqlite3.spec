@@ -2,7 +2,7 @@
 %define name  ruby-%{rname}
 %define oname %{rname}-ruby
 
-%define version 1.2.1
+%define version 1.2.2
 %define release %mkrel 1
 
 Summary: Ruby interface for the SQLite3 database engine
@@ -43,5 +43,5 @@ ruby setup.rb install --prefix=%buildroot
 %defattr(-,root,root)
 %{ruby_sitelibdir}/%{rname}*
 %{ruby_sitearchdir}/%{rname}*
-%doc ChangeLog LICENSE README api/ doc/
+%doc CHANGELOG.rdoc LICENSE README.rdoc api/ doc/
 
