@@ -3,7 +3,7 @@
 %define oname %{rname}-ruby
 
 %define version 1.2.2
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Ruby interface for the SQLite3 database engine
 Name: %name
