@@ -3,7 +3,7 @@
 %define oname %{rname}-ruby
 
 %define version 1.2.2
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Ruby interface for the SQLite3 database engine
 Name: %name
@@ -16,6 +16,7 @@ Source0: %{oname}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: ruby-devel sqlite3-devel ruby-flexmock swig
 Provides: %{oname}
+Provides: rubygem(%{oname}) = %{version}
 
 %description
 Ruby interface for the SQLite database engine.
